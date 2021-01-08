@@ -1,0 +1,631 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-padding{
+	padding: 30px 0;
+}
+
+.section-padding-l{
+	padding: 30px 0 10px 0;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Regular.otf);
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Bold.otf);
+	font-family: Montserrat-Bold;
+}
+
+@font-face{
+	src: url(../fonts/proxima/Proxima\ Nova\ Bold.otf);
+	font-family:Proxima-Nova-Bold.otf;
+}
+
+@font-face{
+	src: url(../fonts/roboto/Roboto-Light.ttf);
+	font-family: Roboto-Light;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Medium.otf);
+	font-family: Montserrat-Medium.otf;
+}
+
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+.header-section{
+	width: 100%;
+	padding: 300px 0px;
+	background: url(../images/banner-bg.png) top left no-repeat;
+	background-size: cover;
+}
+.header-section .header{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: -290px;
+
+	
+}
+.header .header-top{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	
+}
+
+.header .header-top .logo{
+	width: 30%;
+	float: left;
+	margin: 0px ;
+}
+.header .header-top .logo h4{
+	font-size: 27px;
+	font-weight: 700;
+	font-family: Montserrat-Regular;
+	color: #ffffff;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 9px;
+}
+
+.header .header-top .logo img{
+	margin-left: 30px;
+	margin-top: 13px;	
+}
+
+.header .header-top .logo i{
+	color: #ffffff;
+	margin-left:28px;
+}
+
+.header .header-top .logo .p-extra{
+	float: right;
+	margin-top: 15px;
+}
+
+.header .header-top .logo p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	font-family: Montserrat-Regular;
+	margin-right: 20px;
+}
+
+.header .header-top .main-menu{
+	width: 57%;
+	float: left;
+	margin-top: 7px;
+}
+
+.header .header-top .main-menu ul{
+	text-align: right;
+}
+.header .header-top .main-menu ul li{
+	display: inline;
+}
+.header .header-top .main-menu ul li a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	font-family: Montserrat-Regular;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.header .header-top .main-menu ul li a:hover{
+	color: #000;
+	background: #6fb048;
+	border-radius: 5px;
+}
+.header .header-top .header-top-btn{
+	width: 13%;
+	float: left;
+	margin-top: 15px;
+	text-align: right;
+}
+
+.header .header-top .header-top-btn a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	font-family: Montserrat-Regular;
+	text-transform: uppercase;
+	padding:6px 13px;
+	background: #8ca4a4;
+	border-radius: 5px;
+}
+
+.header .header-top .header-top-btn a:hover{
+	background: #fff;
+	color: #6fb048;
+}
+/*==============header-bottom  */
+
+.header .header-bottom{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+.header .header-bottom img{
+	width: 100%;
+	margin-top: 25px;
+}
+
+.header .header-bottom h1{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #fff;
+	text-align:center;
+	font-family: Roboto-Light;
+	margin-top: 220px;
+	margin-bottom: 30px;
+
+}
+.header .header-bottom .header-bottom-btn{
+	text-align: center;
+}
+.header .header-bottom .header-bottom-btn a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	background: #6fb048;
+	font-family: Montserrat-Regular;
+	text-transform: uppercase;
+	padding:15px 25px;
+	border-radius: 5px;
+}
+
+.header .header-bottom .header-bottom-btn a:hover{
+	background: #fff;
+	color: #6fb048;
+}
+/* =============================================
+			  End Heading Section                 
+================================================= */
+
+/* =============================================
+			  Start About Section                 
+================================================= */
+.about-section{
+	width: 100%;
+}
+.about-section .about{
+	width: 90%;
+}
+.about .about-top{
+	text-align: center;
+}
+
+.about .about-top h2{
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #0f5f5c;
+	text-align:center;
+	font-family: Roboto-Light;
+	margin-bottom: ;
+}
+.about .about-top img{
+	margin-bottom: 30px;
+}
+.about .about-top p{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;	
+}
+
+.about .about-bottom{
+	text-align: center;
+}
+
+.about-bottom .about-bottom-inner{
+	width: 33.33%;
+	float: left;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.about-bottom .about-bottom-inner img{
+	width: 20%;
+	height: 70px;
+	margin-bottom: 20px;
+}
+.about-bottom .about-bottom-inner h5{
+	font-size: 20px;
+	font-weight: 700;
+	color: #0f5f5c;
+	text-align:center;
+	font-family: Roboto-Light;
+	margin-bottom: 10px;
+}
+
+.about-bottom .about-bottom-inner p{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;
+}
+/* =============================================
+			  End About Section                 
+================================================= */
+
+/* =============================================
+			  Start team Section                 
+================================================= */
+.team-section{
+	width: 100%;
+	background: #eef1ec;
+}
+.team-section .team{
+	width: 90%;
+}
+.team .team-top{
+	text-align: center;
+}
+
+.team .team-top h2{
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #0f5f5c;
+	text-align:center;
+	font-family: Roboto-Light;
+	margin-bottom: ;
+}
+.team .team-top img{
+	margin-bottom: 30px;
+}
+.team .team-top p{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;	
+}
+
+.team .team-bottom{
+	text-align: left;
+}
+
+.team-bottom .team-bottom-inner{
+	width: 33.33%;
+	float: left;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.team-bottom .team-bottom-inner img{
+	width: 80%;
+	margin-bottom: 20px;
+}
+.team-bottom .team-bottom-inner h5{
+	font-size: 20px;
+	font-weight: 700;
+	color: #0f5f5c;
+	font-family: Roboto-Light;
+	margin-bottom: ;
+}
+
+.team-bottom .team-bottom-inner p{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;
+}
+
+/* =============================================
+			  End team Section                 
+================================================= */
+
+/* =============================================
+			  Start download Section                 
+================================================= */
+.download-section{
+	width: 100%;
+	background: url(../images/download-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.download-section .download{
+	width: 90%;
+}
+.download .download-left{
+	width: 70%;
+	float: left;
+}
+
+.download .download-left h4{
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	font-family: Roboto-Light;
+	margin-bottom: ;
+	text-align: left;
+	margin-top: ;
+}
+.download .download-left p{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	text-align: left;
+}
+.download .download-right{
+	width: 30%;
+	float: left;
+}
+
+.download .download-right .download-bottom-btn{
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.download .download-right .download-bottom-btn a{
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff;
+	background: #49732f;
+	font-family: Montserrat-Regular;
+	text-transform: uppercase;
+	padding:15px 20px;
+	border-radius: 5px;
+}
+
+.download .download-right .download-bottom-btn a:hover{
+	background: #fff;
+	color: #6fb048;
+}
+/* =============================================
+			  End download Section                 
+================================================= */
+
+/* =============================================
+			  Start footer Section                 
+================================================= */
+.footer-section{
+	width: 100%;
+}
+
+.footer-section .footer{
+	width: 90%;
+}
+
+/* footer-1st */
+
+.footer .footer-1st{
+	width: 25%;
+	float: left;
+}
+
+.footer .footer-1st h5{
+	font-size: 22px;
+	font-weight: 600;
+	color: #0f5f5c;
+	font-family: Montserrat-Bold;
+	margin-bottom: 10px ;
+	text-align: left;
+	margin-top: ;
+}
+.footer .footer-1st p{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;
+	text-align: left;
+}
+
+
+/* footer-2nd */
+
+
+.footer .footer-2nd{
+	width: 25%;
+	float: left;
+}
+
+.footer .footer-2nd h5{
+	font-size: 22px;
+	font-weight: 600;
+	color: #0f5f5c;
+	font-family: Montserrat-Bold;
+	margin-bottom: 10px ;
+	text-align: left;
+	margin-top: ;
+}
+
+.footer .footer-2nd a{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;
+	text-align: left;
+}
+.footer .footer-2nd a:hover{
+	background:#0f5f5c ;
+	color:#fff;
+	padding: 5px 30px 5px 3px;
+	border-radius: 5px;
+}
+
+/* footer-3rdd */
+.footer .footer-3rd{
+	width: 25%;
+	float: left;
+}
+
+.footer .footer-3rd h5{
+	font-size: 22px;
+	font-weight: 600;
+	color: #0f5f5c;
+	font-family: Montserrat-Bold;
+	margin-bottom: 10px ;
+	text-align: left;
+	margin-top: ;
+}
+
+.footer .footer-3rd a{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;
+	text-align: left;
+}
+.footer .footer-3rd a:hover{
+	background:#0f5f5c ;
+	color:#fff;
+	padding: 5px 30px 5px 3px;
+	border-radius: 5px;
+}
+
+/* footer-4th */
+.footer .footer-4th{
+	width: 25%;
+	float: left;
+}
+
+.footer .footer-4th h5{
+	font-size: 22px;
+	font-weight: 600;
+	color: #0f5f5c;
+	font-family: Montserrat-Bold;
+	margin-bottom: 10px ;
+	text-align: left;
+	margin-top: ;
+}
+
+.footer .footer-4th p{
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;
+	text-align: left;
+}
+
+.footer .footer-4th .email-btn{
+	margin-top: 20px;
+}
+
+.footer .footer-4th .email-btn input{
+	color: #0f5f5c;
+	background: #eef1ec;
+	border: 1px solid #0f5f5c;
+	padding: 10px 20px 10px 10px;
+}
+
+.footer .footer-4th .email-btn input::placeholder{
+	color: #0f5f5c;
+}
+
+.footer .footer-4th .email-btn .button{
+	color: #fff;
+	background: #6fb048;
+	border: none;
+	margin-top: 5px;
+	padding: 5px 10px 5px 5px;
+}
+
+.footer .footer-4th .email-btn .button:hover{
+	background: transparent;
+	
+	color: #6fb048;
+}
+
+/* footer-last */
+.footer .footer-last{
+	width: 100%;
+}
+.footer .footer-last img{
+	width: 100%;
+	margin-top: 80px;
+}
+
+.footer .footer-last .footer-extra{
+	width: 50%;
+	float: left;
+}
+
+.footer .footer-last .footer-extra p{
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #0f5f5c;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.footer-last .social-icon{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.footer-last .social-icon i{
+	height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #6fb048;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+	margin-right: 10px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 15px;
+	border: 1px solid transparent;
+
+}
+.footer-last .social-icon i:hover{
+	background-color: transparent;
+	border: 1px solid #6fb048;
+	color: #6fb048;
+}
+/* =============================================
+			  End footer Section                 
+================================================= */
+
